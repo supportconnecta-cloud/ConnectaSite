@@ -1,0 +1,14 @@
+/* BOTÕES */
+.primary {
+  background: teal;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.secondary {
+  border: 1px solid gray;
+  padding: 10px 20px;
+  cursor: pointer;
+}
