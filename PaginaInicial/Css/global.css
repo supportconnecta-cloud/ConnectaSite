@@ -1,0 +1,57 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+
+  /* 🎨 CORES PRINCIPAIS */
+  --primary: #14b8a6;
+  --primary-dark: #0d9488;
+  --secondary: #0ea5e9;
+
+  /* 🧱 CORES DE FUNDO */
+  --bg-main: #f9fafb;
+  --bg-white: #ffffff;
+  --bg-dark: #111827;
+
+  /* 📝 CORES DE TEXTO */
+  --text-main: #111827;
+  --text-secondary: #6b7280;
+  --text-light: #9ca3af;
+
+  /* ⭐ ESTADO */
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
+
+  /* 🔘 BOTÕES */
+  --btn-radius: 12px;
+  --btn-padding: 12px 20px;
+
+  /* 📦 CARDS */
+  --card-radius: 16px;
+  --card-shadow: 0 10px 25px rgba(0,0,0,0.05);
+
+  /* 🧩 BORDAS */
+  --border-color: #e5e7eb;
+
+  /* 🔤 TIPOGRAFIA */
+  --font-main: 'Inter', sans-serif;
+
+  /* 📏 TAMANHOS DE TEXTO */
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 32px;
+
+  /* 📐 ESPAÇAMENTOS */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  /* ⚡ TRANSIÇÕES */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.3s;
+
+}
