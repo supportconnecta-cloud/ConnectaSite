@@ -1,6 +1,6 @@
 .features {
-  padding: 100px 20px;
-  background: #f9fafb;
+  padding-top: 100px;
+  background: #ffffff;
 }
 
 /* LINHA */
@@ -47,9 +47,9 @@
 .phone {
   width: 180px;
   height: 360px;
-  border-radius: 30px;
+  border-radius: 17px;
   overflow: hidden;
-  background: #000;
+  background: #ffffff;
 
   /* sombra bonita */
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);

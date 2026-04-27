@@ -1,0 +1,141 @@
+/* SECTION */
+.form-section {
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #f8fafc, #eef2f7);
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTAINER */
+.form-container {
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+/* TITULO */
+.form-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.form-container p {
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group.full {
+  grid-column: span 2;
+}
+
+/* LABEL */
+.input-group label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+/* INPUTS */
+.input-group input,
+.input-group textarea {
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: rgba(255,255,255,0.8);
+  font-size: 14px;
+  transition: 0.3s;
+  outline: none;
+}
+
+/* TEXTAREA */
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+/* HOVER / FOCUS */
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 3px rgba(20,184,166,0.15);
+}
+
+/* BOTÃO */
+/* FOOTER DO FORM */
+.form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* BOTÃO */
+.form-footer button {
+  width: 100%;
+  max-width: 420px;
+  padding: 18px;
+  
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #14b8a6, #0ea5e9);
+  color: white;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+  
+  /* efeito glow */
+  box-shadow: 0 10px 25px rgba(20, 184, 166, 0.25);
+}
+
+/* HOVER (levanta) */
+.form-footer button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(20, 184, 166, 0.35);
+}
+
+/* CLICK (pressionado) */
+.form-footer button:active {
+  transform: scale(0.98);
+  box-shadow: 0 5px 15px rgba(20, 184, 166, 0.2);
+}
+
+/* FOCO (acessibilidade) */
+.form-footer button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.2);
+}
+
+.form-footer {
+  grid-column: 1 / -1; /* 🔥 ocupa toda a largura do grid */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+textarea::placeholder {
+    font-size: 14px;
+}

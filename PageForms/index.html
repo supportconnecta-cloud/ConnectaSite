@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionalidades</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="assets/Logo.png" alt="">
+                </div>
+                <a href="../PaginaInicial/index.html" class="return">Connecta</a>
+            </div>
+
+            <!-- MENU -->
+            <nav class="nav">
+                <a href="#">Funcionalidades</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+
+            <!-- AÇÕES -->
+            <div class="actions">
+                <a href="#" class="btn">Cadastre-se</a>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="form-section" data-aos="fade-up">
+        <div class="form-container">
+
+            <h2>Cadastre-se como Prestador</h2>
+            <p>Preencha seus dados para cadastro.</p>
+
+            <form class="form-grid" id="formPrestador">
+
+                <div class="input-group">
+                    <label>Nome completo</label>
+                    <input type="text" name="nome" required placeholder="Seu nome">
+                </div>
+
+                <div class="input-group">
+                    <label>Categoria</label>
+                    <input type="text" name="categoria" required placeholder="Ex: Eletricista">
+                </div>
+
+                <div class="input-group full">
+                    <label>Descrição</label>
+                    <textarea name="descricao" required placeholder="Descreva seus serviços..."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Cidade</label>
+                    <input type="text" name="cidade" required placeholder="São Paulo">
+                </div>
+
+                <div class="input-group">
+                    <label>Valor por hora</label>
+                    <input type="number" name="valor" placeholder="R$ 50">
+                </div>
+
+                <div class="form-footer full">
+                    <button type="submit">Cadastrar</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <div id="overlay" class="overlay">
+        <div class="success-message">
+            ✔ Cadastro enviado com sucesso!
+        </div>
+    </div>
+
+
+    <script type="module" src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>
