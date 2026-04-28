@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Funcionalidades</title>
+  <title>Sobre</title>
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
       <!-- LOGO -->
       <div class="logo">
         <div class="logo-icon">
-          <img src="assets/Logo.png" alt="">
+          <img src="Assets/Logo.png" alt="">
         </div>
         <a href="../index.html" class="return">Connecta</a>
       </div>
@@ -36,65 +36,86 @@
 
       <!-- AÇÕES -->
       <div class="actions">
-        <a href="../PageForms/index.html" class="btn">Cadastre-se</a>
+        <a href="PageForms/index.html" class="btn">Cadastre-se</a>
       </div>
 
     </div>
   </header>
 
-  <section class="features">
-
-    <!-- BLOCO 1 -->
-    <div class="feature-row">
-      <div class="images">
-        <div class="phone"><img src="assets/TelaInicial.png"></div>
-        <div class="phone"><img src="assets/Map.png"></div>
-      </div>
-
-      <div class="text">
-        <h2>Encontre profissionais perto de você</h2>
-        <p>Procure por prestadores disponíveis <br>
-          na sua região, com avaliações reais e contratação rápida.</p>
-      </div>
-    </div>
-
-    <!-- BLOCO 2 (invertido) -->
-    <div class="feature-row reverse">
-      <div class="images">
-        <div class="phone"><img src="assets/Chat.png"></div>
-        <div class="phone"><img src="assets/Profile.png"></div>
-      </div>
-
-      <div class="text">
-        <h2>Converse direto pelo app</h2>
-        <p>Negocie, tire dúvidas e combine tudo em um chat simples e rápido como prestadores de serviços verificados.</p>
-      </div>
-    </div>
-
+  <!-- HERO -->
+  <section class="about-hero">
+    <h1 data-aos="fade-up">Construindo o futuro dos serviços</h1>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Encontre, contrate e acompanhe serviços com rapidez, segurança e total transparência — tudo em um só lugar.
+    </p>
   </section>
 
-  <section class="cta-section" data-aos="fade-up">
+  <!-- MISSÃO -->
+  <section class="about-section">
+    <div class="container">
 
-    <div class="cta-center">
-      <h2>Tenha controle total sobre seus ganhos</h2>
-    </div>
-
-    <div class="cta-row">
-      <div class="cta-image">
-        <img src="assets/CarteiraWeb.png" alt="App">
-      </div>
-
-      <div class="cta-text">
-        <h3>Minha Carteira</h3>
+      <div class="about-text" data-aos="fade-right">
+        <h2>Nossa missão é simplificar o acesso a serviços</h2>
         <p>
-          Acompanhe quando quiser sua carteira e tenha acesso aos seus ganhos e serviços realizados.
+          Acreditamos que encontrar o profissional certo não deveria ser difícil. <br>
+          Por isso,  criamos uma plataforma que conecta pessoas e talentos de forma direta e eficiente.
         </p>
-
-        <a href="../PageForms/index.html" class="btn">Começar agora</a>
       </div>
-    </div>
 
+      <div class="about-card" data-aos="fade-left">
+        <h3>Inovação</h3>
+        <p>Encontre profissionais próximos com base na sua localização, avaliações reais e disponibilidade imediata.</p>
+      </div>
+
+    </div>
   </section>
+
+  <!-- VALORES -->
+  <section class="values">
+    <h2 data-aos="fade-up">Nossos valores</h2>
+
+    <div class="values-grid">
+
+      <div class="value-card" data-aos="zoom-in">
+        <h3>Confiança</h3>
+        <p>Profissionais verificados e avaliações autênticas garantem decisões mais seguras.</p>
+      </div>
+
+      <div class="value-card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Rapidez</h3>
+        <p>Conectamos você ao profissional ideal em poucos segundos.</p>
+      </div>
+
+      <div class="value-card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Qualidade</h3>
+        <p>Experiência premium do início ao fim, com foco total no usuário.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TIME 
+  <section class="team">
+    <h2 data-aos="fade-up">Nosso time</h2>
+
+    <div class="team-grid">
+
+      <div class="team-card" data-aos="fade-up">
+        <img src="Assets/Logo.png">
+        <h4>Johann</h4>
+        <p>DONO</p>
+      </div>
+
+    </div>
+  </section>
+-->
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2 data-aos="fade-up">Pronto para começar?</h2>
+    <a href="../PageForms/index.html" class="btn" data-aos="fade-up" data-aos-delay="200">Entrar no Connecta</a>
+  </section>
+
 
   <footer class="footer">
     <div class="footer-container">
@@ -103,7 +124,7 @@
       <div class="footer-left">
         <div class="logo">
           <div class="logo-icon">
-            <img src="assets/Logo.png" alt="">
+            <img src="Assets/Logo.png" alt="">
           </div>
           <span>Connecta</span>
         </div>
@@ -142,7 +163,6 @@
     </div>
   </footer>
 
-
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
   <script>
@@ -151,7 +171,6 @@
       once: true
     });
   </script>
-
 </body>
 
 </html>

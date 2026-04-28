@@ -1,0 +1,19 @@
+
+/* ===================== */
+/* HERO SECTION */
+/* ===================== */
+
+.about-hero {
+  text-align: center;
+  padding: 100px;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-hero p {
+  margin-top: 20px;
+  color: #94a3b8;
+}

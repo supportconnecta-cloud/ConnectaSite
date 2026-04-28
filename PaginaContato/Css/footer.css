@@ -1,0 +1,83 @@
+.footer {
+  background: linear-gradient(90deg, #e6e6e6, #14b8a6);
+  padding: 60px 20px 20px;
+ /* border-top: 1px solid #e5e7eb;*/
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* ESQUERDA */
+.footer-left {
+  max-width: 300px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.logo-icon {
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left p {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* COLUNAS */
+.footer-col h4 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.footer-col a:hover {
+  color: #111827;
+}
+
+/* LINHA FINAL */
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #9ca3af;
+}

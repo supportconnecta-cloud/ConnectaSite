@@ -1,0 +1,32 @@
+
+/* ===================== */
+/* TEAM SECTION */
+/* ===================== */
+
+.team {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.team-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  border-radius: 50%;
+  width: 100px;
+}

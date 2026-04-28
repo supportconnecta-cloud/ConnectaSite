@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* BOTÃO */
+.btn {
+  background-color: #14b8a6;
+  margin-top: 25px;
+  color: white;
+  padding: 14px 22px;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0d9488;
+}

@@ -1,0 +1,27 @@
+
+/* ===================== */
+/* ABOUT / MISSÃO SECTION */
+/* ===================== */
+
+.about-section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text h2 {
+  font-size: 32px;
+}
+
+.about-card {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}

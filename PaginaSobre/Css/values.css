@@ -1,0 +1,30 @@
+
+/* ===================== */
+/* VALUES SECTION */
+/* ===================== */
+
+.values {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.value-card {
+  border: solid black 1px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  background: #cecdcd;
+}
+
